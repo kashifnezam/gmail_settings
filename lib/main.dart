@@ -99,7 +99,7 @@ class _MyAppState extends State<MyApp> {
               ),
               const Divider(
                 thickness: 0.1,
-                height: 14,
+                height: 20,
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -170,7 +170,7 @@ class _MyAppState extends State<MyApp> {
               ),
               const Divider(
                 thickness: 0.6,
-                height: 14,
+                height: 25,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -234,7 +234,7 @@ class _MyAppState extends State<MyApp> {
               ),
               const Divider(
                 thickness: 0.6,
-                height: 14,
+                height: 25,
               ),
               Row(
                 children: [
@@ -374,7 +374,7 @@ class _MyAppState extends State<MyApp> {
               ),
               const Divider(
                 thickness: 0.6,
-                height: 14,
+                height: 25,
               ),
               Row(
                 children: [
@@ -494,7 +494,7 @@ class _MyAppState extends State<MyApp> {
               ),
               const Divider(
                 thickness: 0.6,
-                height: 16,
+                height: 25,
               ),
               Row(
                 children: [
@@ -520,7 +520,7 @@ class _MyAppState extends State<MyApp> {
                     ],
                   ),
                   const SizedBox(
-                    width: 100,
+                    width: 99,
                   ),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -531,7 +531,7 @@ class _MyAppState extends State<MyApp> {
                         style: TextStyle(
                             fontSize: 14, fontWeight: FontWeight.bold),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 10,
                       ),
                       Container(
@@ -558,7 +558,7 @@ class _MyAppState extends State<MyApp> {
               ),
               const Divider(
                 thickness: 0.6,
-                height: 16,
+                height: 20,
               ),
             ],
           ),
